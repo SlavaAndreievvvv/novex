@@ -18,11 +18,11 @@
       right: 0;
       z-index: -1;
       @include background-image {
-       background-image: url("../assets/BG-phone.png");
+       background-image: url("assets/BG-phone.png");
      }
      @include media("tablet") {
       background-position: 40% 0%;
-      background-image: url("../assets/BG.png");
+      background-image: url("assets/BG.png");
     }
      @include media("tablet-medium") {
       background-position: 50% 0%;

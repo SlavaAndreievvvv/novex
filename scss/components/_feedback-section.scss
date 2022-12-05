@@ -42,7 +42,7 @@
     width: 100%;
     position: relative;
      &::after {
-      content: url(../assets/coma-up.svg);
+      content: url(assets/coma-up.svg);
       position: absolute;
       transform: rotate(180deg);
       right: -22px;
@@ -50,7 +50,7 @@
 
      }
      &::before {
-      content: url(../assets/coma-up.svg);
+      content: url(assets/coma-up.svg);
       position: absolute;
       top: -18px;
       left: -22px;
