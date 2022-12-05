@@ -15,8 +15,6 @@
   }
   &__icon {
     position: absolute;
-    left: 17.5px;
-    top: 13px;
     @include svg(24px, $color-white);
   }
 }

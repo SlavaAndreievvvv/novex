@@ -860,8 +860,6 @@ body, input, button, textarea, select {
 }
 .arrow-button__icon {
   position: absolute;
-  left: 17.5px;
-  top: 13px;
   width: 24px;
   height: 24px;
   fill: #FFFFFF;
@@ -940,12 +938,12 @@ body, input, button, textarea, select {
   z-index: -1;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/assets/BG-phone.png");
+  background-image: url("assets/BG-phone.png");
 }
 @media only screen and (min-width: 768px) {
   .hero-section::after {
     background-position: 40% 0%;
-    background-image: url("/assets/BG.png");
+    background-image: url("assets/BG.png");
   }
 }
 @media only screen and (min-width: 860px) {
@@ -1220,14 +1218,14 @@ body, input, button, textarea, select {
   position: relative;
 }
 .feedback-section__subtitle::after {
-  content: url(/assets/coma-up.svg);
+  content: url(assets/coma-up.svg);
   position: absolute;
   transform: rotate(180deg);
   right: -22px;
   bottom: -18px;
 }
 .feedback-section__subtitle::before {
-  content: url(/assets/coma-up.svg);
+  content: url(assets/coma-up.svg);
   position: absolute;
   top: -18px;
   left: -22px;
