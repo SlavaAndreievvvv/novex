@@ -1,0 +1,19 @@
+.input {
+  font-family: $font-2;
+  height: 52px;
+  border-radius: 100px;
+  padding: 0 24px;
+  background-color: $color-grey-1;
+  @include transition(all);
+  @include text(rem(16px), 400, $color-grey-4, initial);
+  @include border;
+  @include input-placeholder {
+    color: $color-grey-7;
+  }
+  &:hover {
+    border-color: $color-grey-4;
+  }
+  &:focus {
+    border-color: $color-green-8;
+  }
+}

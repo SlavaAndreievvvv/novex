@@ -1,0 +1,4 @@
+.subtitle {
+  @include text(rem(16px), 400, $color-grey-10, 160%);
+  font-family: $font-2;
+}

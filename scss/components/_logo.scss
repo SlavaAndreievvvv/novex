@@ -1,0 +1,9 @@
+.logo {
+  width: 111px;
+  height: 20px;
+  cursor: pointer;
+  @include media('tablet') {
+    width: 167px;
+    height: 30px;
+  }
+}

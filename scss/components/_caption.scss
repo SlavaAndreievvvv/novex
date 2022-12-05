@@ -1,0 +1,4 @@
+.caption {
+  font-family: $font-1;
+  @include text(rem(38px), 600, $color-grey-6, 120%)
+}
