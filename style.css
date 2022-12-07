@@ -1086,16 +1086,20 @@ body, input, button, textarea, select {
     margin-right: 80px;
   }
   .investors-wrapper__link--mrl {
-    margin-left: 120px;
+    margin-left: 160px;
     margin-bottom: 0;
   }
   .investors-wrapper__link--mrr {
-    margin-right: 120px;
+    margin-right: 180px;
     margin-bottom: 0;
   }
   .investors-wrapper__link--not-mr {
     margin-bottom: 0;
   }
+}
+.investors-wrapper__img {
+  width: 179.06px;
+  height: 22.39px;
 }
 
 @media only screen and (min-width: 768px) {

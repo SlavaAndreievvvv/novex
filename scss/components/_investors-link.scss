@@ -39,17 +39,21 @@
       margin-right: 80px;
       
       &--mrl {
-        margin-left: 120px;
+        margin-left: 160px;
         margin-bottom: 0;
       }
       &--mrr {
-        margin-right: 120px;
+        margin-right: 180px;
         margin-bottom: 0;
       }
       &--not-mr {
         margin-bottom: 0;
       }
     }
+  }
+  &__img {  
+      width: 179.06px;
+      height: 22.39px;
   }
 }
 
