@@ -1,0 +1,72 @@
+.hero-section {
+  min-height: 100%;
+  padding-top: 114px;
+  padding-bottom: 40px;
+  @include flex (space-between, center, column);
+  @include media('tablet') {
+    align-items: stretch;
+    padding-top: 168px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+  }
+  &::after {
+    @include pseudo {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      @include background-image {
+       background-image: url("assets/BG-phone.png");
+     }
+     @include media("tablet") {
+      background-position: 40% 0%;
+      background-image: url("assets/BG.png");
+    }
+     @include media("tablet-medium") {
+      background-position: 50% 0%;
+    }
+      @include media("desktop") {
+       background-position: 50% 0%;
+     }
+    }
+   }
+&__content {
+  padding-bottom: 79px;
+  @include media('tablet') {
+    max-width: 420px;
+    padding-bottom: 0;
+  }
+}
+&__title {
+  margin-bottom: 32px;
+  text-align: center;
+  @include media('tablet') {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+&__subtitle {
+  margin-bottom: 26px;
+  text-align: center;
+  @include media('tablet') {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+}
+&__illustration {
+  max-width: 261px;
+  width: 100%;
+  height: auto;
+  @include media('tablet') {
+    display: none;
+  }
+}
+&__arrow-button {
+  display: none;
+  @include media('tablet') {
+    display: flex;
+  }
+}
+}

@@ -1,0 +1,20 @@
+.arrow-button {
+  position: relative;
+  @include size(48px, true);
+  @include transition(all);
+  @include flex (center, center);
+  @include border;
+  background-color: $color-grey-4;
+
+  &:hover {
+    background-color: $color-green-8;
+  }
+  &:focus {
+    background-color: $color-grey-4;
+    @include border($color-green-8);
+  }
+  &__icon {
+    position: absolute;
+    @include svg(24px, $color-white);
+  }
+}

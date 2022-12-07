@@ -1,19 +1,8 @@
-@mixin text(
-  $font-size,
-  $font-weight,
-  $color,
-  $line-height: false,
-  $font-family: false
-) {
+@mixin text($font-size, $font-weight, $color, $line-height: initial) {
   font-size: $font-size;
   font-weight: $font-weight;
   color: $color;
-  @if $line-height {
-    line-height: $line-height;
-  }
-  @if map_has_key($fonts, $font-family) {
-    font-family: map_get($fonts, $font-family);
-  }
+  line-height: $line-height;
 }
 
 @mixin flex($jc: flex-start, $ai: stretch, $direction: row, $wrap: nowrap) {
@@ -59,6 +48,7 @@
   content: $content;
   display: $display;
   position: $pos;
+  @content;
 }
 
 @mixin margin-center {
@@ -71,9 +61,9 @@
 $breakpoints: (
   'phone': 400px,
   'phone-wide': 480px,
-  'phablet': 560px,
   'tablet-small': 640px,
   'tablet': 768px,
+  'tablet-medium':860px,
   'tablet-wide': 1024px,
   'desktop': 1248px,
   'desktop-wide': 1440px,

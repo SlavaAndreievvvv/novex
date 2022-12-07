@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&family=Saira:wght@300;400;500;600;700&display=swap');
+
 @import "./normalize";
 @import "./reset";
 @import "./variables";
 @import "./function";
 @import "./mixin";
 @import "./common";
+
+@import "./components/title";
+@import "./components/subtitle";
+@import "./components/logo";
+@import "./components/link";
+@import "./components/button";
+@import "./components/input";
+@import "./components/arrow-button";
+@import "./components/navigation";
+@import "./components/form";
+@import "./components/header";
+@import "./components/hero-section";
+
+@import "./components/caption";
+@import "./components/investors-section";
+@import "./components/investors-link";
+
+@import "./components/form-section";
+@import "./components/feedback-section";
+
+@import "./components/add-button";
+@import "./components/hiring-section";
+
+@import "./components/social";
+@import "./components/items";
+@import "./components/footer";
+
